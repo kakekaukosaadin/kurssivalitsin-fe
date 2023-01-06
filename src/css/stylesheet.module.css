@@ -1,0 +1,175 @@
+.customDdb button {
+    width: 100%;
+    background: #533875;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'effrafontmd';
+}
+.customDdb button:hover {
+    background: #966dc7;
+}
+
+.topnav {
+    background: #533875;
+    overflow: auto;
+    display: flex;
+    height: 60px;
+}
+.navLeft {
+    float: left;
+    width: 50%;
+}
+.navLeft button {
+    float:left;
+    background: #ffbf00;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+}
+
+.navRight {
+    float: right;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.navRight p {
+    color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 14px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 0;
+
+    font-family: 'effrafont';
+    font-style: normal;
+    font-weight: 400;
+}
+.navRight button {
+    float:right;
+    background: #ffbf00;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.customBTN {
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #555555;
+}
+
+.delBTN {
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #533875;
+}
+
+.tarjotinDelBTN {
+    position:fixed;
+    width: auto;
+    height: 40px;
+    bottom:40px;
+    right:40px;
+    background-color:#533875;
+    color:#FFF;
+    border: none;
+    text-align:center;
+}
+
+.loginScreen {
+    height: 100vh;
+    width: 100%;
+    margin: 0 0 0 0;
+    background-image: linear-gradient(to bottom right, #533875, #ffbf00);
+    padding-top: 30vh;
+}
+
+.loginWrapper {
+    background: #533875;
+    margin: auto auto auto auto;
+    width: 85%;
+    height: 40vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.loginWrapper h1 {
+    font-family: 'mrdafoe';
+    font-size: 50px;
+    color: #ffbf00;
+}
+
+.loginWrapper p {
+    color: white;
+}
+
+.signInDiv {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'mrdafoe';
+    src: url("./MrDafoe-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'effrafont';
+    src: url("./Effra_Trial_Rg.ttf");
+}
+
+@font-face {
+    font-family: 'effrafontmd';
+    src: url("./Effra_Trial_Md.ttf");
+}
+
+.btnCol {
+    margin-top: 0;
+    margin-left: 0;
+}
+.koneCont {
+    margin: 0 0 0 0;
+    padding: 5px;
+}
+
+.resCol {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.pageBtn {
+    z-index: 9999;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    float: right;
+    background: #ffbf00;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
